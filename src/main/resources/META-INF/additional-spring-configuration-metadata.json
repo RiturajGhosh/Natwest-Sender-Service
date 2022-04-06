@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "natwest.maxtotalconnections",
+    "type": "java.lang.String",
+    "description": "A description for 'natwest.maxtotalconnections'"
+  },
+  {
+    "name": "natwest.defaultmaxtotalconnections",
+    "type": "java.lang.String",
+    "description": "A description for 'natwest.defaultmaxtotalconnections'"
+  },
+  {
+    "name": "natwest.connectionrequesttimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'natwest.connectionrequesttimeout'"
+  },
+  {
+    "name": "natwest.sockettimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'natwest.sockettimeout'"
+  },
+  {
+    "name": "port",
+    "type": "java.lang.String",
+    "description": "A description for 'port'"
+  },
+  {
+    "name": "natwest.rcvr.api-host",
+    "type": "java.lang.String",
+    "description": "A description for 'natwest.rcvr.api-host'"
+  },
+  {
+    "name": "natwest.rcvr.apihost",
+    "type": "java.lang.String",
+    "description": "A description for 'natwest.rcvr.apihost'"
+  }
+]}
