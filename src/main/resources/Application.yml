@@ -1,0 +1,9 @@
+natwest:
+  rcvr:
+    apihost : http://localhost:8080   
+  maxtotalconnections: 100
+  defaultmaxtotalconnections: 20
+  connectionrequesttimeout: 3000
+  sockettimeout: 3000
+server:
+  port: 8000
