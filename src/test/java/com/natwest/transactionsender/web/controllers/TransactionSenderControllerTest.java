@@ -1,6 +1,7 @@
 package com.natwest.transactionsender.web.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.natwest.transactionsender.events.TransactionSenderEvent;
 import com.natwest.transactionsender.web.exception.ErrorDetails;
 import com.natwest.transactionsender.web.exception.ResourceNotFoundException;
 import com.natwest.transactionsender.web.model.TransactionDTO;
@@ -28,6 +29,9 @@ public class TransactionSenderControllerTest {
 
     @Mock
     private TransactionDTO transactionDTO;
+
+    @Mock
+    private TransactionSenderEvent transactionSenderEvent;
 
     @InjectMocks
     private TransactionSenderController transactionSenderController;
