@@ -1,9 +1,27 @@
+topic:
+  transaction:
+    name: TRANSACTION
 natwest:
   rcvr:
-    apihost : http://localhost:8080   
+    apihost : http://localhost:8083
   maxtotalconnections: 100
   defaultmaxtotalconnections: 20
   connectionrequesttimeout: 3000
   sockettimeout: 3000
 server:
   port: 8000
+spring:
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        auto.register.schemas: false
+        acks: all
+        retries: 0
+        spring:
+          json:
+            add:
+              type:
+                headers: false
