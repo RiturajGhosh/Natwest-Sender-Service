@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.natwest.transactionsender.events.TransactionSenderEvent;
 import com.natwest.transactionsender.web.exception.ErrorDetails;
 import com.natwest.transactionsender.web.exception.ResourceNotFoundException;
-import com.natwest.transactionsender.web.model.TransactionDTO;
+import common.model.TransactionDTO;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

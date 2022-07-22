@@ -3,7 +3,7 @@ package com.natwest.transactionsender.web.controllers;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.natwest.transactionsender.events.TransactionSenderEvent;
-import com.natwest.transactionsender.web.model.TransactionDTO;
+import common.model.TransactionDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
