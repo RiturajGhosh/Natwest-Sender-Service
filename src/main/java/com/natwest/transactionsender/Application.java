@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Bean;
 import org.springframework.kafka.config.TopicBuilder;
 import org.springframework.web.client.RestTemplate;
@@ -15,6 +16,7 @@ import org.springframework.web.client.RestTemplate;
  * @author Rituraj
  */
 @SpringBootApplication
+@RefreshScope
 public class Application {
 
     @Value(value = "${topic.transaction.name}")
