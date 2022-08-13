@@ -20,6 +20,7 @@
 #        auto.register.schemas: false
 #        acks: all
 #        retries: 0
+# above is externalized to config server
 spring:
   application:
     name: transaction-producer
