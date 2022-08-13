@@ -27,4 +27,4 @@ samle request payload:
     
     "AccountForm" : "234klj"
 } 
-It will use kafka also to send the transaction data
+It will use kafka also to send the transaction data.
