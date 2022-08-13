@@ -20,7 +20,10 @@
 #        auto.register.schemas: false
 #        acks: all
 #        retries: 0
+<<<<<<< Updated upstream
 # above is externalized to config server
+=======
+>>>>>>> Stashed changes
 spring:
   application:
     name: transaction-producer
